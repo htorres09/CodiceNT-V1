@@ -17,6 +17,14 @@ import { PublicacionesComponent } from './publicaciones/publicaciones.component'
 import { OpacComponent } from './opac/opac.component';
 import { EstadisticasComponent } from './estadisticas/estadisticas.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
+import { WdgtEstadisticaComponent } from './wdgt-estadistica/wdgt-estadistica.component';
+import { WdgtUsuariosComponent } from './wdgt-usuarios/wdgt-usuarios.component';
+import { WdgtCubiculosComponent } from './wdgt-cubiculos/wdgt-cubiculos.component';
+import { WdgtComputoComponent } from './wdgt-computo/wdgt-computo.component';
+import { WdgtPrestamosComponent } from './wdgt-prestamos/wdgt-prestamos.component';
+import { WdgtCirculacionComponent } from './wdgt-circulacion/wdgt-circulacion.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
+import { ContentHeaderComponent } from './content-header/content-header.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +40,15 @@ import { NavBarComponent } from './nav-bar/nav-bar.component';
     PublicacionesComponent,
     OpacComponent,
     EstadisticasComponent,
-    NavBarComponent
+    NavBarComponent,
+    WdgtEstadisticaComponent,
+    WdgtUsuariosComponent,
+    WdgtCubiculosComponent,
+    WdgtComputoComponent,
+    WdgtPrestamosComponent,
+    WdgtCirculacionComponent,
+    DashboardComponent,
+    ContentHeaderComponent
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'ng-cli-universal' }),

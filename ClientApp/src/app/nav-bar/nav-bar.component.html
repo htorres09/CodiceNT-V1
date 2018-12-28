@@ -1,18 +1,19 @@
 <header class="main-header">
   <div class='navbar-header'>
+    <a class='navbar-brand' [routerLink]='["/"]'>CodiceNT</a>
+  </div>
+
+  <nav class="navbar navbar-static-top">
     <button type='button' class='navbar-toggle' data-toggle='collapse' data-target='.navbar-collapse' [attr.aria-expanded]='isExpanded' (click)='toggle()'>
       <span class='sr-only'>Toggle navigation</span>
       <span class='icon-bar'></span>
       <span class='icon-bar'></span>
       <span class='icon-bar'></span>
     </button>
-    <a class='navbar-brand' [routerLink]='["/"]'>CodiceNT</a>
-  </div>
 
-  <nav class="navbar navbar-static-top">
-    <a href="#" class="glyphicon glyphicon-menu-hamburger" data-toggle="push-menu" role="button">
+    <button type='button' class="navbar-toggle" data-toggle="push-menu" role="button">
       <span class="sr-only">Toggle navigation</span>
-    </a>
+    </button>
     <!-- Navbar Right Menu -->
     <div class="navbar-custom-menu">
       <ul class="nav navbar-nav">
@@ -31,7 +32,7 @@
                   <!-- start message -->
                   <a href="#">
                     <div class="pull-left">
-                      <img src="#" class="img-circle" alt="User Image">
+                      <img src="../../../../Img/user2-160x160.jpg" class="img-circle" alt="User Image">
                     </div>
                     <h4>
                       Support Team
@@ -44,7 +45,7 @@
                 <li>
                   <a href="#">
                     <div class="pull-left">
-                      <img src="#" class="img-circle" alt="User Image">
+                      <img src="../../../../Img/user2-160x160.jpg" class="img-circle" alt="User Image">
                     </div>
                     <h4>
                       AdminLTE Design Team
@@ -56,7 +57,7 @@
                 <li>
                   <a href="#">
                     <div class="pull-left">
-                      <img src="dist/img/user4-128x128.jpg" class="img-circle" alt="User Image">
+                      <img src="../../../../Img/user2-160x160.jpg" class="img-circle" alt="User Image">
                     </div>
                     <h4>
                       Developers
@@ -68,7 +69,7 @@
                 <li>
                   <a href="#">
                     <div class="pull-left">
-                      <img src="dist/img/user3-128x128.jpg" class="img-circle" alt="User Image">
+                      <img src="../../../../Img/user2-160x160.jpg" class="img-circle" alt="User Image">
                     </div>
                     <h4>
                       Sales Department
@@ -80,7 +81,7 @@
                 <li>
                   <a href="#">
                     <div class="pull-left">
-                      <img src="dist/img/user4-128x128.jpg" class="img-circle" alt="User Image">
+                      <img src="../../../../Img/user2-160x160.jpg" class="img-circle" alt="User Image">
                     </div>
                     <h4>
                       Reviewers
@@ -217,16 +218,15 @@
         <!-- User Account: style can be found in dropdown.less -->
         <li class="dropdown user user-menu">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-            <img src="#" class="user-image" alt="User Image">
-            <span class="hidden-xs">USER</span>
+            <img src="../../assets/img/user2-160x160.jpg" class="user-image" alt="User Image">
+            <span class="hidden-xs">BIBLIOTECA</span>
           </a>
           <ul class="dropdown-menu">
             <!-- User image -->
             <li class="user-header">
-              <img src="#" class="img-circle" alt="User Image">
-
-              <p>
-                USER - Biblioteca
+              <img src="../../assets/img/user2-160x160.jpg" class="img-circle" alt="User Image">
+              <p style="color:black">
+                User - Biblioteca
                 <small>Fecha Registro</small>
               </p>
             </li>
@@ -234,13 +234,13 @@
             <li class="user-body">
               <div class="row">
                 <div class="col-xs-4 text-center">
-                  <a href="#">Followers</a>
+                  <a href="#">Actividades</a>
                 </div>
                 <div class="col-xs-4 text-center">
-                  <a href="#">Sales</a>
+                  <a href="#">Noticias</a>
                 </div>
                 <div class="col-xs-4 text-center">
-                  <a href="#">Friends</a>
+                  <a href="#">Reportes</a>
                 </div>
               </div>
               <!-- /.row -->
@@ -248,10 +248,10 @@
             <!-- Menu Footer-->
             <li class="user-footer">
               <div class="pull-left">
-                <a href="#" class="btn btn-default btn-flat">Profile</a>
+                <a href="#" class="btn btn-default btn-flat">Perfil</a>
               </div>
               <div class="pull-right">
-                <a href="#" class="btn btn-default btn-flat">Sign out</a>
+                <a href="#" class="btn btn-default btn-flat">Salir</a>
               </div>
             </li>
           </ul>
@@ -262,7 +262,5 @@
         </li>
       </ul>
     </div>
-
   </nav>
-
 </header>

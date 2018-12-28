@@ -25,6 +25,14 @@ body {
   overflow-x: hidden;
   overflow-y: auto;
 }
+
+/* Codice */
+.menu-btn {
+  padding-top: 15px;
+  left: 145px;
+  font-size: large;
+} 
+
 /* Layout */
 .wrapper {
   height: 100%;
